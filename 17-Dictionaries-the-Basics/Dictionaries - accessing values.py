@@ -2,6 +2,7 @@
 ## unordered data structure for declaring relationship between objects
 ## a mutable data structure of key - pair
 
+# Accessing values
 
 dictionary1 = {
     "Key1": "Val1",
@@ -40,7 +41,7 @@ dictionaryWithList["list1"] = ["list1val111", "list1val222"]
 print(dictionaryWithList) #{'list1': ['list1val111', 'list1val222'], 'list2': ['list2val1', 'list2val2'], 'list3': ['list3val1', 'list3val2']}
 
 
-#UTILIZZI CON VARIABILI
+#USE CASES
 
 values = ["word1", "word2", "word3", "word1", "word1", "word2"]
 
@@ -54,6 +55,8 @@ def count_words(words):
     return count
 
 print(count_words(values))
+
+
 
 
 
